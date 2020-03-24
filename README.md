@@ -1,1 +1,2 @@
-# teamdanio-rosalind
+# Rosalind solutions from teamdanio
+
