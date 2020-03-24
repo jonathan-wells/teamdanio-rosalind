@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 def hypotenuse(a, b):
+    """Return the hypotensuse of a triangle with base a and height b."""
     c = (a**2 + b**2)**0.5
     return c
 
