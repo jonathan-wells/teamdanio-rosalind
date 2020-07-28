@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def reverse_complement(seq):
+def reverse_complement(seq, rna=False):
     revdict = {'A': 'T',
                'C': 'G',
                'G': 'C',
