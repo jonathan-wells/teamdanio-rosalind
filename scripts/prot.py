@@ -12,7 +12,7 @@ def load_codons():
                 codons[codon] = residue
     return codons
 
-def translate_string(rnastring):
+def translate(rnastring):
     codons = load_codons()
     protstring = ''
     for i in range(0, len(rnastring), 3):
@@ -25,4 +25,4 @@ def translate_string(rnastring):
 if __name__ == '__main__':
     with open('../data/rosalind_prot.txt') as infile:
         rnastring = infile.readline().strip()
-    print(translate_string(rnastring))
+    print(translate(rnastring))
